@@ -1,2 +1,2 @@
 # com.alfaqeir.webviewbrowser
-Advanced WebView browser for Titanium, Alloy
+Advanced WebView browser widget for Titanium, Alloy
