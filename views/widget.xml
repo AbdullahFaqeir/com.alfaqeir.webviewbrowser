@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="WebViewWindow">
+		<View id="webViewHeader">
+			<Label id="webViewHeaderLabel">Loading...</Label>
+			<TextField id="webViewHeaderURL"></TextField>
+		</View>
+		<View id="webViewView">
+			<WebView id="webView" />
+		</View>
+		<View id="webViewBtns">
+			<Button id="goBack" class="webViewBtn">←</Button>
+			<Button id="goForward" class="webViewBtn">→</Button>
+			<Button id="ReloadStop" class="webViewBtn3">↻</Button>
+			<Button id="CloseWebView" class="webViewBtn2">Done</Button>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,140 @@
+"#WebViewWindow[platform=ios]":{
+	layout: "vertical",
+	backgroundColor: "#eae4e8",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.GRAY,
+	orientationModes: [],
+	navBarHidden: true
+}
+
+"#WebViewWindow[platform=android]":{
+	layout: "vertical",
+	backgroundColor: "#eae4e8",
+	orientationModes: [],
+	navBarHidden: true,
+	theme: "Theme.NoActionBar",
+	exitOnClose: false
+}
+
+"#webViewHeader[platform=ios]":{
+	top: 20,
+	height: 70,
+	backgroundColor: "#a060a2",
+	width:Titanium.UI.FILL
+}
+
+"#webViewHeader[platform=android]":{
+	height: 70,
+	backgroundColor: "#a060a2",
+	width:Titanium.UI.FILL
+}
+
+"#webViewHeaderURL":{
+	editable: false,
+	width:Titanium.UI.FILL,
+	height: 30,
+	bottom: 0,
+	font:{
+		fontSize: 9
+	},
+	backgroundColor: "white",
+	color: "black",
+	borderColor: "#a060a2"
+}
+
+"#webViewHeaderLabel[platform=ios]":{
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	top: 10,
+	font:{
+		fontSize: 14
+	},
+	color: "white"
+}
+
+"#webViewHeaderLabel[platform=android]":{
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	top: 10,
+	font:{
+		fontSize: 16
+	},
+	color: "white"
+}
+
+"#webViewBtns":{
+	height: 50,
+	width:Titanium.UI.FILL,
+	bottom: 50,
+	layout: "horizontal",
+	backgroundColor: "#a060a2"
+}
+
+"#webViewView":{
+	height: Titanium.UI.FILL
+}
+
+
+".webViewBtn2[platform=android]":{
+	top: 3,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	left: 10,
+	color: "white",
+	width: "20%",
+	backgroundColor: "transparent",
+	height:Titanium.UI.FILL
+}
+
+".webViewBtn2[platform=ios]":{
+	top: 0,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	left: 10,
+	color: "white",
+	width: "20%",
+	font:{
+		fontSize: 15,
+		fontWeight: "bold"
+	},
+	backgroundColor: "transparent",
+	height:Titanium.UI.FILL
+}
+
+
+".webViewBtn":{
+	top: 0,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	left: 10,
+	color: "white",
+	width: "20%",
+	font:{
+		fontSize: 30,
+		fontWeight: "bold"
+	},
+	backgroundColor: "transparent",
+	height:Titanium.UI.FILL
+}
+
+".webViewBtn3[platform=android]":{
+	top: 5,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	left: 10,
+	color: "white",
+	width: "20%",
+	font:{
+		fontSize: 20,
+		fontWeight: "bold"
+	},
+	backgroundColor: "transparent",
+	height:Titanium.UI.FILL
+}
+
+".webViewBtn3[platform=ios]":{
+	top: 0,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	left: 10,
+	color: "white",
+	width: "20%",
+	font:{
+		fontSize: 25,
+		fontWeight: "bold"
+	},
+	backgroundColor: "transparent",
+	height:Titanium.UI.FILL
+}

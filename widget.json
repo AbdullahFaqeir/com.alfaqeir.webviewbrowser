@@ -1,0 +1,15 @@
+{
+	"id": "com.alfaqeir.webviewbrowser",
+	"name": "com.alfaqeir.webviewbrowser",
+	"description": "",
+	"author": "Abdullah Al-Faqeir",
+	'email': "abdullah.alfaqeir@gmail.com",
+	'website': "http://www.al-faqeir.com",
+	"version": "1.0",
+	"copyright": "Copyright (c) Al-Faqeir 2015",
+	"license": "Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version": "2.1",
+	"tags": "",
+	"platforms": "android,ios,mobileweb"
+}
